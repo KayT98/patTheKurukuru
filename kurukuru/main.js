@@ -1,25 +1,34 @@
-let num = 0;
+let num = 0
+
+let herta = document.getElementById("kurugif")
 
 function clickMe() {
-    num += 1
-    document.getElementById("kurugif")
+
+    if (num <= 10)
+    {
+        num += 1
+    }
     let counts = document.getElementById("counts")
     counts.innerHTML = num
 
-    
+    //increase the speed
     let increaseSPD = document.getElementById("patSPD")
-    if (num >= 10) {
-        num += 3
-        increaseSPD.innerHTML = "SPD Boosted x3"
+    
+    if (num >= 10 && num < 40) {
+        num += 3   
+        increaseSPD.innerHTML = "SPD Boosted +3"
     }
 
-    if (num >= 30) {
+    if (num >= 40) 
+    {
         num += 6
-        increaseSPD.innerHTML = "SPD Boosted x6"
-    }
+        increaseSPD.innerHTML = "SPD Boosted +6"
+    } 
 
-    if (num >= 50) {
-        num += 100
-        increaseSPD.innerHTML = "SPD Boosted x100 POWAAAAAAHHHH"
-    }
+    
+    
+    
+
+    
+      
 }
