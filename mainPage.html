@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <title>Pat the Kurukuru</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul><a href="https://github.com/KayT98"><i class="fa fa-github" aria-hidden="true" ></i></a></ul>
+            <ul><a href="https://www.linkedin.com/in/kay-truong-158824185/"><i class="fa fa-linkedin" aria-hidden="true" ></i></a></ul>
+        </nav>
+    </header>
+    <h1 class="h1Text">WAKEY WAKEY! IT'S TIME TO PAT THE KURUKURU</h1>
+
+
+    <div class="h3Text">
+        <h3>You patted Kurukuru <h3 id="counts" value="">0</h3> times</h3>
+    </div>
+
+    <div id="patSPD"></div>
+
+    <div id="kurugif"> 
+        <audio id="audio" src="kurukuru.mp3" type="audio/mpeg" autoplay></audio>       
+        <img src="kurukuru.gif" alt="kurkuru" onclick="clickMe()" onmousedown="sound()">  
+    </div>
+
+    <button id="reload" onclick="window.location.reload()">Start over</button>
+
+    <footer>
+        <p>Idk man, lol. Let's suffer this madness together! TOGETHER WE SAY KURUKURU!</p>
+    </footer>
+    
+    
+</body>
+</html>
