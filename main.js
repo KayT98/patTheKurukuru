@@ -37,7 +37,7 @@ function clickMe() {
         increaseSPD.innerHTML = "SPD Boosted +100"
     }
 
-    if (num == 1000) {
+    if (num >= 1000) {
         num += 10000
         increaseSPD.innerHTML = "POWAAAAHHHH!!!"
     }

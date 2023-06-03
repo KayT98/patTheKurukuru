@@ -1,5 +1,14 @@
-body {
+html {
   background-color: rgb(14, 122, 184);
+  cursor: url(https://i.stack.imgur.com/KDrS2.png), auto;
+}
+
+button {
+  cursor: url(https://i.stack.imgur.com/KDrS2.png), auto;
+}
+
+nav {
+  display: flex;
 }
 
 .h1Text {
@@ -16,4 +25,19 @@ body {
 
 #kurugif {
   text-align: center;
+}
+#kurugif:hover {
+  cursor: url(Z92q.gif), auto;
+}
+
+#intro {
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
